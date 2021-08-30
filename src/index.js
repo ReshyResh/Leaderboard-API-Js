@@ -1,3 +1,3 @@
-/* eslint no-unused-vars: 0 */
+/* eslint-disable */
 import _ from 'lodash';
 import './style.css';
