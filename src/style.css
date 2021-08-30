@@ -30,7 +30,7 @@ h2 {
   flex-flow: column;
   width: 50%;
   padding: 5% 10% 5% 10%;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .button-main {
