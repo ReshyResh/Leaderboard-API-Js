@@ -1,5 +1,5 @@
 /* eslint no-unused-vars: 0 */
-import _ from 'lodash';
+import _ from 'lodash'; // eslint-disable-line
 import sendApi from './sendData';
 import populate from './populate';
 import './style.css';
