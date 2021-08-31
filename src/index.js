@@ -35,3 +35,7 @@ sub.addEventListener('click', async () => {
 ref.addEventListener('click', async () => {
   populate(await getArr());
 });
+
+document.addEventListener('DOMContentLoaded', async () => {
+  populate(await getArr());
+});
