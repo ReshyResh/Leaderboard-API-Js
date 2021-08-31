@@ -1,10 +1,11 @@
 body {
   font-family: 'Permanent Marker', cursive;
-  height: 100vh;
   margin: 0;
   padding: 0;
   background: linear-gradient(#09031a, #320679);
   color: #fff;
+  height: 1200px;
+  overflow: hidden;
 }
 
 #container {
@@ -144,4 +145,11 @@ li:nth-child(3) {
 button:hover {
   background: black;
   color: #fff;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 2em;
+  margin-top: -100px;
 }
