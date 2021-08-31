@@ -1,5 +1,5 @@
 export default async (name, score) => {
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/lRWV4oLNs6pIEv70BwVZ/scores/', {
+  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/g74bEIa3hLMcwbnspurk/scores/', {
     method: 'POST',
     body: JSON.stringify({
       user: name,
