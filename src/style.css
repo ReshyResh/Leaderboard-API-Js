@@ -52,6 +52,7 @@ h2 {
   height: 400px;
   border: 5px solid black;
   padding: 0;
+  overflow-y: scroll;
 }
 
 #form {
@@ -79,4 +80,38 @@ li {
 
 li:nth-child(odd) {
   background: lightgrey;
+}
+
+#error-popup {
+  position: fixed;
+  color: #fff;
+  font-size: 1.5em;
+  font-family: inherit;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 250px;
+  width: 400px;
+  height: 60px;
+  visibility: visible;
+  opacity: 1;
+  transition: all 3s;
+  border-radius: 4%;
+  text-align: center;
+  line-height: 60px;
+  z-index: 99;
+  box-shadow: 5px 6px 1px rgba(0, 0, 0);
+}
+
+.fade {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
 }
